@@ -16,7 +16,7 @@ int main(void)
 		(c <= 'z' && d <= 'Z') {
 			putchar(c);
 			c++;
-			puthcar(d);
+			putchar(d);
 			d++;
 		}
 	putchar('\n');
