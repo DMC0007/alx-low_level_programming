@@ -19,5 +19,6 @@ int main(void)
 			puthcar(d);
 			d++;
 		}
+	putchar('\n');
 	return (0);
 }
