@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * main - Entry point
- * Return: 0 (Success)
+ * print_alphabet - Print the alphabet
+ * Return: void (Success)
  */
+
 void print_alphabet(void)
 {
 	char c;
