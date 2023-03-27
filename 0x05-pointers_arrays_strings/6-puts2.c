@@ -9,7 +9,7 @@
  * Return: void
  */
 
-void puts2(char )
+void puts2(char *str)
 {
 	int i;
 	int j = 0;
