@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _srtcat - concatenates two strings
@@ -9,21 +10,17 @@
 
 char *_srtcat(char *dest, char *src)
 {
-	int i;
-	int j;
+	int dlen = 0, i;
 
-	i = 0;
-	while (dest[i] != '\0')
+	while (dest[dlen])
 	{
-		i++;
+		dlen++;
 	}
-	j = 0;
-	while (src[j] != '\0')
+	for (i = 0; src[i] != 0; i++)
 	{
-		dest[i] = src[j];
-		i++;
-		j++;
+		dest[dlen] = src[i];
+		dlen++;
 	}
-	dest[i] = '\0';
+	dest[dlen] = '\0';
 	return (dest);
 }
